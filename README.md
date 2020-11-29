@@ -44,7 +44,7 @@ This project was *not* intended to be easily re-purposed or modified to use diff
 If simply testing the project and not modifying it, skip to [Run main.R](#run-main).
 
 ### Prerequisites
-- R Windows x64 v3.5.2 (not tested in later releases), with working direcory set as Reforester's base directory
+- R Windows x64 v3.5.2 (not tested in later releases), with working directory set as Reforester's base directory
 - R packages:
     - caper v1.0.1
     - phytools v0.7-20
