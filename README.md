@@ -39,16 +39,17 @@ Nonetheless, if Phanerozoic life diversified logistically, my results show it is
 
 ## Getting Started
 
-This project was *not* intended to be easily re-purposed or modified to use different input data, particularly because the simulation relies on durations and time bin start and end points that are hard-coded into many different functions. However, it is certainly possible to re-use or re-purpose the scripts, with some modification. I adhered to the [Google R style guide](https://google.github.io/styleguide/Rguide.html) throughout, and followed the [tidyverse R style guide](https://style.tidyverse.org) when further clarification was needed. This should make understanding the scripts easier. The meat and bones of the project, that is *main.R* and *functions.R*, will hopefully be the most useful parts of the project for re-use.
-
-If simply testing the project and not modifying it, skip to [Run main.R](#run-mainR).
-
 ### Prerequisites
 - R Windows x64 v3.5.2 (not tested in later releases), with working directory set as Reforester's base directory
 - R packages:
     - caper v1.0.1
     - phytools v0.7-20
     - paleotree v3.3.25
+
+### Disclaimer
+This project was *not* intended to be easily re-purposed or modified to use different input data, particularly because the simulation relies on durations and time bin start and end points that are hard-coded into many different functions. However, it is certainly possible to re-use or re-purpose the scripts, with some modification. I adhered to the [Google R style guide](https://google.github.io/styleguide/Rguide.html) throughout, and followed the [tidyverse R style guide](https://style.tidyverse.org) when further clarification was needed. This should make understanding the scripts easier. The meat and bones of the project, that is *main.R* and *functions.R*, will hopefully be the most useful parts of the project for re-use.
+
+If simply testing the project and not modifying it, skip to [Run main.R](#run-mainR).
 
 ### (Optional) Modify and run dataimporter.R
 *dataimporter.R* takes as input two .csv files ("terrestrial_tetrapods.csv" and "marine_eumetazoa.csv") containing fossil occurrence data from The Paleobiology Database. These must be placed in the base directory along with *dataimporter.R*. The script extracts relevant data from the databases and collates this into the six sampling rate proxy time series.
