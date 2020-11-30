@@ -2,7 +2,7 @@
 # Last Modified: 02/04/2020 19:00
 # functions.R
 
-# This script contains the fucntions used to perform a single simulation
+# This script contains the functions used to perform a single simulation
 # run. It is called by "main.R".
 
 # ----------------------------------------------------------------------
