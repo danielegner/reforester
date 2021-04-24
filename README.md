@@ -47,7 +47,7 @@ Nonetheless, if Phanerozoic life diversified logistically, my results show it is
     - paleotree v3.3.25
 
 ### Disclaimer
-This project was *not* intended to be easily re-purposed or modified to use different input data, particularly because the simulation relies on durations and time bin start and end points that are hard-coded into many different functions. However, it is certainly possible to re-use or re-purpose the scripts, with some modification. I adhered to the [Google R style guide](https://google.github.io/styleguide/Rguide.html) throughout, and followed the [tidyverse R style guide](https://style.tidyverse.org) when further clarification was needed. This should make understanding the scripts easier. The meat and bones of the project, that is *main.R* and *functions.R*, will hopefully be the most useful parts of the project for re-use.
+This project was *not* intended to be easily re-purposed or modified to use different input data, particularly because the simulation relies on durations and time bin start and end points that are hard-coded into many different functions. However, it is certainly possible to re-use or re-purpose the scripts, with some modification. I adhered to the [Google R style guide](https://google.github.io/styleguide/Rguide.html) throughout, and followed the [tidyverse R style guide](https://style.tidyverse.org) when further clarification was needed. This should make understanding the scripts easier. The core of the project, that is *main.R* and *functions.R*, should be the most useful parts for re-use.
 
 If simply testing the project and not modifying it, skip to [Run main.R](#run-mainR).
 
